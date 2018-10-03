@@ -1,57 +1,55 @@
 body {
     background-color: #777;
     width: 960px;
-}
-
-.container {
-    width: 80%;
-    Margin: auto;
-    background-color: #ebebeb;
-    color: #777;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    color: #777;
     text-align: center;
-    overflow: hidden;
+    font-size: 18px;
 }
-  
-#header {
-    margin-top: 8px;
-    margin-bottom: 8px;
-    line-height: 80px;
+div {
+    background-color: #ebebeb;
 }
 
-#nav {
-    margin-top: 8px;
-    margin-bottom: 16px;
-    line-height: 80px;
+#header {
+    text-align: center;
+    margin-bottom: 1%;
+    padding: 30px 0;
+    margin-top: 1%;
+}
+
+#nav-bar {
+    padding: 30px 0;
+    margin-top: 1%;
+    margin-bottom: 1.5%;
 }
 
 #section {
-    margin: auto;
-    margin-bottom: 16px;
-    margin-left: 4.2%;
-    line-height: 200px;
+    margin-bottom: 1.5%;
+    margin-right: 2%;
+    padding: 50px 0;
     width: 58%;
     float: left;
 }
 
-#article {
-    color: #777;
-    background-color: #ebebeb
-}
 #aside {
-    margin-left: -8.2%;
-    margin-bottom: 16px;
-    line-height: 200px;
+    margin-bottom: 1.5%;
+    padding: 50px 0;
     width: 40%;
     float: left;
 }
 
+#footer {
+    line-height: 80px;
+    margin-top: 1.5%;
+    margin-bottom: 1%;
+    overflow: auto;
+}
+
+.center {
+    width: 80%;
+    margin: auto;
+}
+
 #article {
 
-}
-#footer {
-    margin-top: 16px;
-    margin-bottom: 8px;
-    line-height: 80px;
 }
