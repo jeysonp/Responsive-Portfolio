@@ -38,7 +38,6 @@ h2 {
     padding: 1%;
     margin-bottom: 2%;
     border-bottom: 2px solid #ccc;
-
 }
 
 header {
@@ -79,10 +78,10 @@ p {
 footer {
     background: #666;
     margin-top: 5%;
-    padding: 1%;
-    border-top: 5px solid;
+    padding: 2%;
+    border-top: 8px solid;
     border-color: #4aaaa5;
-    color: #fff;
+    color: #ccc;
     text-align: center;
 }
 
