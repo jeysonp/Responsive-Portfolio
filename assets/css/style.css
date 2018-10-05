@@ -16,9 +16,7 @@ body {
 .container img {
     height: 200px;
     width: 200px;
-    margin-top: 1%;
-    margin-right:2%;
-    margin-bottom: 1%;
+    margin: 0 2% 2% 0;
     float: left;
 }
 
@@ -35,6 +33,12 @@ h1 {
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 1%;
+    margin-bottom: 2%;
+    border-bottom: 2px solid #ccc;
+
 }
 
 header {
@@ -47,15 +51,38 @@ header {
 
 nav {
     float: right;
-    width: 33%;
+    width: 37%;
 }
 
 nav a {
     display: inline;
     font-size: 18px;
     padding: 2%;
-    border-right: 2px;
     text-decoration: none;
 }
 
+.container #about {
+    background: #fff;
+    margin-top:3%;
+    padding: 2%;
+    border: 2px solid #ccc;
+    width: 80%;
+    overflow:auto;
+}
+
+p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background: #666;
+    margin-top: 5%;
+    padding: 1%;
+    border-top: 5px solid;
+    border-color: #4aaaa5;
+    color: #fff;
+    text-align: center;
+}
 
