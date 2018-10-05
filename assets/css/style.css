@@ -1,55 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    background-color: #777;
-    width: 960px;
+    background: url("../images/light_checkered_tiles_@2X.png");
     font-family: Arial, Helvetica, sans-serif;
-    color: #777;
-    text-align: center;
-    font-size: 18px;
-}
-div {
-    background-color: #ebebeb;
+    color: #777;   
 }
 
-#header {
-    text-align: center;
-    margin-bottom: 1%;
-    padding: 30px 0;
-    margin-top: 1%;
-}
-
-#nav-bar {
-    padding: 30px 0;
-    margin-top: 1%;
-    margin-bottom: 1.5%;
-}
-
-#section {
-    margin-bottom: 1.5%;
-    margin-right: 2%;
-    padding: 50px 0;
-    width: 58%;
-    float: left;
-}
-
-#aside {
-    margin-bottom: 1.5%;
-    padding: 50px 0;
-    width: 40%;
-    float: left;
-}
-
-#footer {
-    line-height: 80px;
-    margin-top: 1.5%;
-    margin-bottom: 1%;
-    overflow: auto;
-}
-
-.center {
+.container {
     width: 80%;
     margin: auto;
 }
 
-#article {
-
+.container img {
+    height: 200px;
+    width: 200px;
+    margin-top: 1%;
+    margin-right:2%;
+    margin-bottom: 1%;
+    float: left;
 }
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+    background: #4aaaa5;
+    color: #fff;
+    padding: 2%;
+    display: inline-block;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+}
+
+header {
+    background: #fff;
+    margin-bottom: 1%;
+    border: solid;
+    border-color: #fff; 
+    border-bottom-color: #ccc;  
+}
+
+nav {
+    float: right;
+    width: 33%;
+}
+
+nav a {
+    display: inline;
+    font-size: 18px;
+    padding: 2%;
+    border-right: 2px;
+    text-decoration: none;
+}
+
+
