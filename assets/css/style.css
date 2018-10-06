@@ -14,10 +14,10 @@ body {
 }
 
 .container img {
+    position: relative;
     height: 200px;
-    width: 200px;
-    margin: 0 2% 2% 0;
-    float: left;
+    width: 275px;
+    display: inline-block;
 }
 
 h1 {
@@ -56,17 +56,21 @@ nav {
 nav a {
     display: inline;
     font-size: 18px;
+    color: #777;
     padding: 2%;
     text-decoration: none;
+    position: relative;
+    top: 25px;
+    right: 25px;
 }
 
-.container #about {
+.container #main_content {
     background: #fff;
     margin-top:3%;
     padding: 2%;
     border: 2px solid #ccc;
     width: 80%;
-    overflow:auto;
+    overflow: auto;
 }
 
 label {
@@ -99,9 +103,35 @@ button {
     padding: 10px 20px;
 }
 
+#bio_pic {
+    height: 200px;
+    width: 200px;
+    margin: 0 2% 2% 0;
+    float: left;
+}
+
+#image2 {
+    left: 20px;
+}
+
+#image3 {
+    top: 235px;
+    left: -558px
+}
+
+#image4 {
+    top: 32px;
+    left: 300px;
+}
+
+#image5 {
+    top: 270px;
+    left: -278px;
+}
+
 p {
     font-size: 16px;
-    line-height: 24px;
+    line-height: 25px;
     margin-bottom: 20px;
 }
 
@@ -113,5 +143,6 @@ footer {
     border-color: #4aaaa5;
     color: #ccc;
     text-align: center;
+    font-size: 12px;
 }
 
