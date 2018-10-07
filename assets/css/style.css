@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    width: 80%;
+    width: 960px;
     margin: auto;
 }
 
@@ -51,7 +51,7 @@ header {
 
 nav {
     float: right;
-    width: 37%;
+    width: 25%;
 }
 
 nav a {
@@ -62,7 +62,7 @@ nav a {
     text-decoration: none;
     position: relative;
     top: 25px;
-    right: 25px;
+    right: 160px;
 }
 
 .container #main_content {
