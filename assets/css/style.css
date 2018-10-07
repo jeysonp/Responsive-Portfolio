@@ -17,7 +17,8 @@ body {
     position: relative;
     height: 200px;
     width: 275px;
-    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 25px;
 }
 
 h1 {
@@ -70,7 +71,56 @@ nav a {
     padding: 2%;
     border: 2px solid #ccc;
     width: 80%;
-    overflow: auto;
+}
+
+#label1 {
+    background: #4aaaa5;
+    color: #fff;
+    text-align:center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 85px;
+    width: 275px;
+}
+
+#label2 {
+    background: #4aaaa5;
+    color: #fff;
+    text-align:center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 85px;
+    width: 275px;
+}
+
+#label3 {
+    background: #4aaaa5;
+    color: #fff;
+    text-align:center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 85px;
+    width: 275px;
+}
+
+#label4 {
+    background: #4aaaa5;
+    color: #fff;
+    text-align:center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 85px;
+    width: 275px;
+}
+
+#label5 {
+    background: #4aaaa5;
+    color: #fff;
+    text-align:center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 85px;
+    width: 275px;
 }
 
 label {
@@ -110,7 +160,7 @@ button {
     float: left;
 }
 
-#image2 {
+/* #image2 {
     left: 20px;
 }
 
@@ -127,7 +177,8 @@ button {
 #image5 {
     top: 270px;
     left: -278px;
-}
+    margin-bottom: 10px;
+} */
 
 p {
     font-size: 16px;
